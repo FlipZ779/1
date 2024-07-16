@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imglogo img {
+    height: 50px;
+}
+
+.itens {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    border-radius: 4px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ativardrop {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.ativardrop:hover {
+    background-color: #45a049;
+}
+
+.dropconteudo {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    min-width: 200px;
+    padding: 20px;
+    top: 50px;
+    right: 0;
+}
+
+.dropconteudo p{
+    background-color: #45a049;
+    margin-bottom: 20px; 
+    text-align: center; 
+    left: 50%;
+}
+
+.dropconteudo input[type="text"],
+.dropconteudo input[type="email"],
+.dropconteudo input[type="password"],
+.dropconteudo button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.dropconteudo button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropconteudo button:hover {
+    background-color: #45a049;
+}
+
+.show {
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.info-bar{
+    background-color: #b0ccb1;
+    font-family: "Bebas Neue", sans-serif;
+    height: 60px;
+    top: 20%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.info-bar h1{
+    color: #4CAF50;
+    text-shadow: solid black;
+}
+.info-basic{
+    
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.image-panel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    min-width: 60%;
+    margin: 20px auto;
+}
+
+#main-image {
+    max-width: 100%;
+    max-height: 400px ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#prev-button {
+    left: 10px;
+}
+
+#next-button {
+    right: 10px;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

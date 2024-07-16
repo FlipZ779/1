@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="icon" href="/img/png-transparent-shopping-cart-icon-shopping-cart-black-design-trade-removebg-preview.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/JS/script.js"></script>
+
+    <title>MAPA</title>
+</head>
+<body>
+    <header>
+        <div class="imglogo">
+            <img src="/img/png-transparent-shopping-cart-icon-shopping-cart-black-design-trade-removebg-preview.png" alt="logo">
+        </div>
+
+        <div class="itens">
+            <div class="container">
+                <button class="ativardrop" onclick="clicklogin()">Já tenho cadastro</button>
+                <div class="dropconteudo" id="logindrop">
+                    <p>Faça login em sua conta</p>
+                    <form id="loginform">
+                        <input type="text" placeholder="Usuário" id="usuariologin">
+                        <input type="password" placeholder="Senha" id="senhalogin">
+                        <button type="submit">Entrar</button>
+                    </form> 
+                </div>
+            </div>
+
+            <div class="container">
+                <button class="ativardrop" data-target="registrodrop">Sou novo por aqui</button>
+                <div class="dropconteudo" id="registrodrop">
+                    <p>Crie sua conta agora mesmo</p>
+                    <input type="text" placeholder="Usuário" id="usuarioregistro">
+                    <input type="email" placeholder="E-mail" id="registroemail">
+                    <input type="password" placeholder="Senha" id="senharegistro">
+                    <button type="submit">Registrar-se</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="info-bar">
+               <div class="info-basic">
+                   <p>Aberto das 09:00 até as 22:00</p>
+                   <h1>Shopping Nova Vida</h1>
+                    <p>Avenida das Palmeiras, 1234</p>    
+               </div>
+        </div>
+
+        <div class="image-panel">
+            <button class="nav-button" id="prev-button">&#10094;</button>
+            <img id="main-image" src="/img/imagem1.jpg" alt="Imagem Principal">
+            <button class="nav-button" id="next-button">&#10095;</button>
+        </div>
+            <p>O Shopping Nova Vida está situado em uma área central e de fácil acesso na cidade de Bela Vista, no estado de Sol Nascente. O bairro Jardim Esperança é conhecido por suas ruas arborizadas e ambiente familiar. Próximo ao shopping, encontram-se várias opções de transporte público, além de vias rápidas que conectam a região aos principais pontos da cidade. Ao redor do shopping, há também parques, escolas e uma ampla gama de restaurantes e cafés, tornando a localização ainda mais atrativa para os visitantes.</p>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
